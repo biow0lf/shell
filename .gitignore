@@ -1,7 +1,6 @@
 # Binaries
 shell
 *.exe
-*.out
 
 # Test binaries
 *.test
