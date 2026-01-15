@@ -19,9 +19,6 @@ func parseInput(input string) (string, []string) {
 	}
 	
 	parts := strings.Fields(input)
-	if len(parts) == 0 {
-		return "", []string{}
-	}
 	
 	cmd := parts[0]
 	args := []string{}
